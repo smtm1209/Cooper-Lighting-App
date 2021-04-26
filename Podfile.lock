@@ -1,0 +1,27 @@
+PODS:
+  - DropDown (2.3.13)
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
+
+DEPENDENCIES:
+  - DropDown
+  - MQTTClient
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - MQTTClient
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+
+PODFILE CHECKSUM: 7340ab3a70f715901212062d46b1ad4081c932ff
+
+COCOAPODS: 1.10.1
